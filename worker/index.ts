@@ -1,6 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 
 interface Env {
+  ASSETS: Fetcher;
   GEMINI_API_KEY?: string;
 }
 
@@ -66,9 +67,9 @@ const json = (data: unknown, status = 200) =>
     headers: { "Content-Type": "application/json" },
   });
 
-export const onRequestPost: PagesFunction<Env> = async (context) => {
-  const apiKey = context.env.GEMINI_API_KEY;
-  const body = await context.request.json().catch(() => ({}));
+async function handleConsult(request: Request, env: Env): Promise<Response> {
+  const apiKey = env.GEMINI_API_KEY;
+  const body = await request.json().catch(() => ({}));
   const { hairType, hairLength, hairStatus, mainConcern, stylePreference, answersText } =
     body as Record<string, string>;
 
@@ -148,4 +149,17 @@ Tu dois répondre STRICTEMENT au format JSON en français, respectant le schéma
       500,
     );
   }
+}
+
+export default {
+  async fetch(request: Request, env: Env): Promise<Response> {
+    const url = new URL(request.url);
+
+    if (url.pathname === "/api/ai-consult" && request.method === "POST") {
+      return handleConsult(request, env);
+    }
+
+    // Serve static SPA assets (Vite build output)
+    return env.ASSETS.fetch(request);
+  },
 };
