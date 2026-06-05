@@ -633,7 +633,7 @@ export default function App() {
                     Nouvel'hair — Bettyna, entrepreneuse individuelle (micro-entreprise).<br />
                     Activité : coiffure à domicile.<br />
                     Secteur : Montpellier et sa métropole.<br />
-                    SIRET : 000 000 000 00000 <span className="text-editorial-muted">(provisoire)</span>.<br />
+                    SIRET : 838 940 427 00019.<br />
                     Numéro de TVA intracommunautaire : non applicable, article 293 B du CGI.<br />
                     E-mail : <a href="mailto:nouvelhair78@gmail.com" className="text-editorial-accent underline">nouvelhair78@gmail.com</a><br />
                     Téléphone : 06 51 01 80 95
