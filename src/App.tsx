@@ -550,10 +550,10 @@ export default function App() {
                   </p>
                 </div>
                 <a
-                  href="tel:0612345678"
+                  href="tel:0651018095"
                   className="px-8 py-4 bg-editorial-accent hover:bg-neutral-800 text-white text-[11px] font-bold tracking-[0.2em] uppercase transition-colors whitespace-nowrap"
                 >
-                  Appeler Bettyna (0612345678)
+                  Appeler Bettyna (0651018095)
                 </a>
               </div>
 

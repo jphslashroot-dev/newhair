@@ -63,11 +63,11 @@ export default function Navbar({ activeTab, setActiveTab, onBookClick }: NavbarP
           {/* Quick Contact & Action Buttons */}
           <div className="flex items-center gap-6">
             <a 
-              href="tel:0612345678" 
+              href="tel:0651018095" 
               className="hidden md:flex items-center gap-2 text-editorial-dark hover:text-editorial-accent text-[11px] uppercase tracking-wider font-bold transition-colors"
             >
               <Phone className="w-4 h-4 text-editorial-accent" />
-              <span>06 12 34 56 78</span>
+              <span>06 51 01 80 95</span>
             </a>
             
             <button

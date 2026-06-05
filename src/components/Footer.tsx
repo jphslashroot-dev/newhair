@@ -47,9 +47,9 @@ export default function Footer() {
             <h4 className="font-serif text-md font-normal text-editorial-accent uppercase tracking-wider">Contact & Conseils</h4>
             <p className="text-white/65 text-xs font-light">Un événement de dernière minute ou une question sur une coloration ? Écrivez ou téléphonez directement.</p>
             <div className="space-y-2 text-xs">
-              <a href="tel:0612345678" className="flex items-center gap-2 text-white/80 hover:text-editorial-accent transition-colors">
+              <a href="tel:0651018095" className="flex items-center gap-2 text-white/80 hover:text-editorial-accent transition-colors">
                 <Phone className="w-4 h-4 text-editorial-accent" />
-                <span>06 12 34 56 78</span>
+                <span>06 51 01 80 95</span>
               </a>
               <a href="mailto:aline.elegance@example.com" className="flex items-center gap-2 text-white/80 hover:text-editorial-accent transition-colors">
                 <Mail className="w-4 h-4 text-editorial-accent" />
