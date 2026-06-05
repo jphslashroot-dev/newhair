@@ -22,6 +22,7 @@ import Footer from "./components/Footer";
 import BeforeAfterSlider from "./components/BeforeAfterSlider";
 import ServiceCard from "./components/ServiceCard";
 import BookingWizard from "./components/BookingWizard";
+import CookieBanner from "./components/CookieBanner";
 
 import { 
   HAIR_SERVICES, 
@@ -38,6 +39,8 @@ export default function App() {
   const [openFaq, setOpenFaq] = useState<number | null>(0); // First accordion default open
   const [bookingSuccess, setBookingSuccess] = useState<boolean>(false);
   const [savedBooking, setSavedBooking] = useState<any>(null);
+  const [cookieConsent, setCookieConsent] = useState<boolean>(false);
+  const [showCookieBanner, setShowCookieBanner] = useState<boolean>(false);
 
   // Check if we have old booking saved in current state
   useEffect(() => {
@@ -46,6 +49,37 @@ export default function App() {
       setSavedBooking(JSON.parse(cached));
     }
   }, [bookingSuccess]);
+
+  // Restore navigation preference if cookies were accepted; otherwise show banner
+  useEffect(() => {
+    const consent = localStorage.getItem("cookie_consent");
+    if (consent === "accepted") {
+      setCookieConsent(true);
+      const savedTab = localStorage.getItem("active_tab");
+      if (savedTab) setActiveTab(savedTab);
+    } else if (consent !== "declined") {
+      setShowCookieBanner(true);
+    }
+  }, []);
+
+  // Persist the active navigation tab across reloads once consent is granted
+  useEffect(() => {
+    if (cookieConsent) localStorage.setItem("active_tab", activeTab);
+  }, [activeTab, cookieConsent]);
+
+  const handleAcceptCookies = () => {
+    localStorage.setItem("cookie_consent", "accepted");
+    localStorage.setItem("active_tab", activeTab);
+    setCookieConsent(true);
+    setShowCookieBanner(false);
+  };
+
+  const handleDeclineCookies = () => {
+    localStorage.setItem("cookie_consent", "declined");
+    localStorage.removeItem("active_tab");
+    setCookieConsent(false);
+    setShowCookieBanner(false);
+  };
 
   // Toggle service selection
   const handleToggleService = (id: string) => {
@@ -525,6 +559,10 @@ export default function App() {
       </main>
 
       <Footer />
+
+      {showCookieBanner && (
+        <CookieBanner onAccept={handleAcceptCookies} onDecline={handleDeclineCookies} />
+      )}
     </div>
   );
 }
