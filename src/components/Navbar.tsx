@@ -10,8 +10,10 @@ interface NavbarProps {
 export default function Navbar({ activeTab, setActiveTab, onBookClick }: NavbarProps) {
   const navItems = [
     { id: "hero", label: "Accueil" },
+    { id: "apropos", label: "À propos" },
     { id: "beforeafter", label: "Avant / Après" },
-    { id: "faq", label: "Pratique & FAQ" }
+    { id: "faq", label: "Pratique & FAQ" },
+    { id: "legal", label: "Mentions légales" }
   ];
 
   return (

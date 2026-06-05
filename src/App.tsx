@@ -220,7 +220,7 @@ export default function App() {
                   <div className="lg:col-span-6 space-y-8 text-center lg:text-left">
                     <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-editorial-light border border-editorial-dark/10 text-editorial-accent text-[9px] font-bold tracking-[0.25em] uppercase">
                       <Star className="w-3 h-3 fill-current text-editorial-accent animate-pulse" />
-                      <span>Artisan Coiffeuse certifiée • bordeaux</span>
+                      <span>Artisan Coiffeuse certifiée • Montpellier</span>
                     </div>
 
                     <h2 className="font-serif text-[48px] sm:text-[64px] lg:text-[72px] leading-[0.95] tracking-tight text-editorial-charcoal font-medium">
@@ -250,16 +250,16 @@ export default function App() {
                     {/* Quality Badges */}
                     <div className="pt-8 border-t border-editorial-dark/10 grid grid-cols-3 gap-6 max-w-md mx-auto lg:mx-0 text-center lg:text-left">
                       <div>
-                        <span className="font-serif block text-2xl font-normal text-editorial-charcoal">4.9 / 5</span>
-                        <span className="text-[9px] uppercase font-bold text-editorial-muted tracking-[0.15em]">Sur 140+ avis</span>
+                        <span className="font-serif block text-2xl font-normal text-editorial-charcoal">Coloration & Coupe</span>
+                        <span className="text-[9px] uppercase font-bold text-editorial-muted tracking-[0.15em]">Spécialités signature</span>
                       </div>
                       <div className="border-l border-editorial-dark/10 pl-6">
-                        <span className="font-serif block text-2xl font-normal text-editorial-charcoal">Montpellier</span>
-                        <span className="text-[9px] uppercase font-bold text-editorial-muted tracking-[0.15em]">Secteur d'action</span>
+                        <span className="font-serif block text-2xl font-normal text-editorial-charcoal">4,9 / 5</span>
+                        <span className="text-[9px] uppercase font-bold text-editorial-muted tracking-[0.15em]">Sur plus de 130 avis</span>
                       </div>
                       <div className="border-l border-editorial-dark/10 pl-6">
-                        <span className="font-serif block text-2xl font-normal text-editorial-charcoal">Inclus</span>
-                        <span className="text-[9px] uppercase font-bold text-editorial-muted tracking-[0.15em]">Bac de lavage</span>
+                        <span className="font-serif block text-2xl font-normal text-editorial-charcoal">Certifiée</span>
+                        <span className="text-[9px] uppercase font-bold text-editorial-muted tracking-[0.15em]">Artisan Coiffeuse • Montpellier</span>
                       </div>
                     </div>
                   </div>
@@ -339,7 +339,6 @@ export default function App() {
                       <div className="pt-4 border-t border-editorial-dark/10 mt-6 flex items-center justify-between">
                         <div>
                           <span className="font-bold text-[12px] text-editorial-charcoal block tracking-wide">{review.name}</span>
-                          <span className="text-[10px] text-editorial-muted font-medium block">{review.city}</span>
                         </div>
                         <span className="px-2.5 py-1 bg-editorial-light border border-editorial-dark/5 text-[9px] uppercase tracking-wider font-bold text-editorial-accent">
                           {review.services}
@@ -552,6 +551,144 @@ export default function App() {
                 </a>
               </div>
 
+            </motion.div>
+          )}
+
+          {/* TAB: À PROPOS */}
+          {activeTab === "apropos" && (
+            <motion.div
+              key="view-apropos"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="max-w-5xl mx-auto px-4 sm:px-6 pt-6"
+            >
+              <div className="text-center max-w-2xl mx-auto mb-12">
+                <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-editorial-accent block mb-2">À propos</span>
+                <h2 className="font-serif text-3xl sm:text-4xl font-normal text-editorial-charcoal">Bettyna, votre coiffeuse à domicile</h2>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                {/* Portrait — remplacer src par votre photo */}
+                <div className="lg:col-span-5">
+                  <div className="relative w-full max-w-sm mx-auto aspect-[3/4] bg-editorial-neutral p-4 border border-editorial-dark/5 shadow-sm">
+                    <img
+                      src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&q=80&w=600&h=800"
+                      alt="Portrait de Bettyna, coiffeuse à domicile à Montpellier"
+                      className="w-full h-full object-cover"
+                      referrerPolicy="no-referrer"
+                    />
+                  </div>
+                </div>
+
+                {/* Parcours */}
+                <div className="lg:col-span-7 space-y-5 text-editorial-dark font-light leading-relaxed text-[14.5px]">
+                  <p>
+                    Passionnée par la coiffure depuis toujours, j'ai fait de mon métier une véritable vocation.
+                    Diplômée et forte de plusieurs années d'expérience en salon, j'ai choisi de venir directement
+                    chez vous pour offrir une prestation sur mesure, dans le confort et l'intimité de votre foyer.
+                  </p>
+                  <p>
+                    Spécialisée en <strong className="font-semibold text-editorial-charcoal">coloration et coupe</strong>,
+                    j'accompagne chaque cliente et client avec écoute, conseils personnalisés et des produits
+                    professionnels respectueux de la fibre capillaire.
+                  </p>
+                  <p>
+                    Mon objectif : que vous vous sentiez sublimé(e), serein(e) et pleinement à l'aise, sans la
+                    contrainte des déplacements ou de l'attente en salon. À très vite à Montpellier et sa métropole.
+                  </p>
+                  <div className="pt-4">
+                    <a
+                      href="https://wa.me/33651018095?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block px-8 py-4 bg-editorial-charcoal hover:bg-editorial-accent text-white text-[11px] uppercase tracking-[0.2em] font-bold transition-all cursor-pointer"
+                    >
+                      Me contacter
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          )}
+
+          {/* TAB: MENTIONS LÉGALES */}
+          {activeTab === "legal" && (
+            <motion.div
+              key="view-legal"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="max-w-3xl mx-auto px-4 sm:px-6 pt-6"
+            >
+              <div className="text-center mb-12">
+                <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-editorial-accent block mb-2">Informations légales</span>
+                <h2 className="font-serif text-3xl sm:text-4xl font-normal text-editorial-charcoal">Mentions légales</h2>
+              </div>
+
+              <div className="space-y-8 text-editorial-dark font-light text-[13.5px] leading-relaxed">
+                <section className="space-y-2">
+                  <h3 className="font-serif text-lg text-editorial-charcoal">Éditeur du site</h3>
+                  <p>
+                    Nouvel'hair — Bettyna, entrepreneuse individuelle (micro-entreprise).<br />
+                    Activité : coiffure à domicile.<br />
+                    Secteur : Montpellier et sa métropole.<br />
+                    SIRET : 000 000 000 00000 <span className="text-editorial-muted">(provisoire)</span>.<br />
+                    Numéro de TVA intracommunautaire : non applicable, article 293 B du CGI.<br />
+                    E-mail : <a href="mailto:nouvelhair78@gmail.com" className="text-editorial-accent underline">nouvelhair78@gmail.com</a><br />
+                    Téléphone : 06 51 01 80 95
+                  </p>
+                </section>
+
+                <section className="space-y-2">
+                  <h3 className="font-serif text-lg text-editorial-charcoal">Directrice de la publication</h3>
+                  <p>Bettyna, en qualité de responsable de la publication.</p>
+                </section>
+
+                <section className="space-y-2">
+                  <h3 className="font-serif text-lg text-editorial-charcoal">Hébergement</h3>
+                  <p>
+                    Site hébergé par Cloudflare, Inc.<br />
+                    101 Townsend Street, San Francisco, CA 94107, États-Unis.<br />
+                    <a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer" className="text-editorial-accent underline">www.cloudflare.com</a>
+                  </p>
+                </section>
+
+                <section className="space-y-2">
+                  <h3 className="font-serif text-lg text-editorial-charcoal">Propriété intellectuelle</h3>
+                  <p>
+                    L'ensemble des contenus de ce site (textes, visuels, logo) est protégé par le droit d'auteur.
+                    Toute reproduction, totale ou partielle, sans autorisation préalable est interdite.
+                  </p>
+                </section>
+
+                <section className="space-y-2">
+                  <h3 className="font-serif text-lg text-editorial-charcoal">Données personnelles</h3>
+                  <p>
+                    Les informations transmises via le formulaire de réservation ou par messagerie sont utilisées
+                    uniquement pour traiter votre demande et ne sont jamais cédées à des tiers. Conformément au RGPD,
+                    vous disposez d'un droit d'accès, de rectification et de suppression de vos données en écrivant à
+                    <a href="mailto:nouvelhair78@gmail.com" className="text-editorial-accent underline"> nouvelhair78@gmail.com</a>.
+                  </p>
+                </section>
+
+                <section className="space-y-2">
+                  <h3 className="font-serif text-lg text-editorial-charcoal">Cookies & préférences</h3>
+                  <p>
+                    Ce site conserve localement vos préférences d'affichage afin d'optimiser votre navigation.
+                    Ces informations ne servent pas à exploiter vos données personnelles et restent stockées sur
+                    votre appareil. Vous pouvez les refuser via le bandeau dédié ou en vidant le stockage de votre navigateur.
+                  </p>
+                </section>
+
+                <section className="space-y-2">
+                  <h3 className="font-serif text-lg text-editorial-charcoal">Médiation de la consommation</h3>
+                  <p>
+                    Conformément à l'article L.612-1 du Code de la consommation, en cas de litige non résolu, vous
+                    pouvez recourir gratuitement à un médiateur de la consommation.
+                  </p>
+                </section>
+              </div>
             </motion.div>
           )}
 
