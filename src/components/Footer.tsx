@@ -33,7 +33,7 @@ export default function Footer() {
             <ul className="space-y-2.5 text-xs text-white/70 font-light">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-editorial-accent flex-shrink-0 mt-0.5" />
-                <span>Montpellier, Castelnau-le-Lez, Lattes, Pérols, Jacou et métropole proche.</span>
+                <span>Montpellier, Lattes, Saint-Jean-de-Védas, Pérols, Villeneuve-lès-Maguelone et banlieue proche.</span>
               </li>
               <li className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-editorial-accent flex-shrink-0" />

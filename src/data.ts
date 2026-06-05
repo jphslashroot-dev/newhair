@@ -113,7 +113,7 @@ export const REVIEWS = [
   },
   {
     name: "Sophie Valon",
-    city: "Castelnau-le-Lez (34170)",
+    city: "Saint-Jean-de-Védas (34430)",
     date: "Il y a 1 semaine",
     rating: 5,
     comment: "Bettyna s'est occupée de mon chignon de mariée ainsi que de la coiffure de mes demoiselles d'honneur. Tout s'est déroulé dans le calme et la complicité à la maison. Un travail d'orfèvre qui a tenu toute la nuit ! Merci !",
@@ -129,7 +129,7 @@ export const REVIEWS = [
   },
   {
     name: "Camille Durand",
-    city: "Jacou (34830)",
+    city: "Pérols (34470)",
     rating: 5,
     date: "Il y a 1 mois",
     comment: "Le soin botox a complètement ressuscité mes cheveux décolorés. Ils sont brillants, doux et incroyablement faciles à coiffer. Bettyna donne des astuces en or !",
@@ -157,10 +157,10 @@ export const HOME_HAIRDRESSER_BENEFITS = [
 ];
 
 export const TRAVEL_FEES = [
-  { zone: "Zone Ultra-Proximité (Montpellier, Castelnau-le-Lez)", distance: "0 - 10 km", price: 0, desc: "Frais de déplacement offerts !" },
+  { zone: "Zone Ultra-Proximité (Montpellier, Lattes)", distance: "0 - 10 km", price: 0, desc: "Frais de déplacement offerts !" },
   { zone: "Zone Urbaine Montpellier (Montpellier Centre, Lattes, Pérols)", distance: "10 - 20 km", price: 5, desc: "Déplacement offert dès 50€ d'achat." },
-  { zone: "Grand Cordon Montpelliérain (Jacou, Le Crès, Clapiers, Juvignac)", distance: "20 - 30 km", price: 10, desc: "Déplacement offert dès 80€ d'achat." },
-  { zone: "Zone Périurbaine (Saint-Aunès, Mauguio, Grabels)", distance: "30+ km", price: 15, desc: "Sur demande spécifique." }
+  { zone: "Couronne Sud (Saint-Jean-de-Védas, Pérols, Villeneuve-lès-Maguelone)", distance: "20 - 30 km", price: 10, desc: "Déplacement offert dès 80€ d'achat." },
+  { zone: "Zone Périurbaine (Villeneuve-lès-Maguelone et banlieue proche)", distance: "30+ km", price: 15, desc: "Sur demande spécifique." }
 ];
 
 export const FAQ_ITEMS = [
@@ -177,7 +177,7 @@ export const FAQ_ITEMS = [
   {
     category: "Règlement & Frais",
     question: "Comment se calculent les frais de déplacement ?",
-    answer: "Les déplacements sont gratuits dans la zone de Montpellier/Castelnau-le-Lez (rayon de 10km). Pour les autres communes de la métropole montpelliéraine, de légers frais s'appliquent (de 5€ à 15€) mais sont totalement annulés dès que la facture atteint un certain palier de prestations !"
+    answer: "Les déplacements sont gratuits dans la zone de Montpellier/Lattes (rayon de 10km). Pour les autres communes de la métropole montpelliéraine, de légers frais s'appliquent (de 5€ à 15€) mais sont totalement annulés dès que la facture atteint un certain palier de prestations !"
   },
   {
     category: "Règlement",

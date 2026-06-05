@@ -93,7 +93,7 @@ export default function App() {
       {/* Top Banner Message with Editorial aesthetic */}
       <div className="w-full bg-editorial-charcoal text-editorial-light text-center py-2.5 px-4 text-[10px] tracking-[0.2em] font-bold uppercase flex items-center justify-center gap-2 border-b border-editorial-dark/10">
         <Sparkles className="w-3.5 h-3.5 text-editorial-accent animate-pulse" />
-        <span>Bettyna se déplace à domicile à Montpellier, Castelnau-le-Lez & Lattes — <strong className="text-editorial-accent underline decoration-1">Déplacement gratuit</strong></span>
+        <span>Bettyna se déplace à domicile à Montpellier, Lattes & Pérols — <strong className="text-editorial-accent underline decoration-1">Déplacement gratuit</strong></span>
       </div>
 
       <Navbar 
@@ -505,7 +505,7 @@ export default function App() {
                   <span className="px-3.5 py-1 text-[9px] tracking-[0.2em] uppercase text-editorial-accent font-bold border border-editorial-accent/20 bg-white/5">Secteur d'activité</span>
                   <h4 className="font-serif text-2xl font-light">Un doute sur votre commune ?</h4>
                   <p className="text-[#E5E1DA] text-[13px] leading-relaxed max-w-sm font-light">
-                    Bettyna intervient principalement sur l'agglomération montpelliéraine (Montpellier, Castelnau-le-Lez, Lattes, Pérols, Jacou, Le Crès, Clapiers, Saint-Jean-de-Védas). Écrivez-nous directement pour valider d'autres régions.
+                    Bettyna intervient principalement sur l'agglomération montpelliéraine (Montpellier, Lattes, Saint-Jean-de-Védas, Pérols, Villeneuve-lès-Maguelone et banlieue proche). Écrivez-nous directement pour valider d'autres régions.
                   </p>
                 </div>
                 <a
