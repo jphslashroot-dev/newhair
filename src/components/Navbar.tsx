@@ -70,13 +70,15 @@ export default function Navbar({ activeTab, setActiveTab, onBookClick }: NavbarP
               <span>06 51 01 80 95</span>
             </a>
             
-            <button
+            <a
               id="book-now-header-btn"
-              onClick={onBookClick}
+              href="https://wa.me/33651018095?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations."
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3.5 bg-editorial-charcoal hover:bg-editorial-accent text-white text-[11px] uppercase tracking-[0.2em] font-bold transition-all duration-300 shadow-sm hover:shadow-md cursor-pointer"
             >
-              Réserver en ligne
-            </button>
+              Contacter
+            </a>
           </div>
         </div>
       </div>
