@@ -1,0 +1,8 @@
+{
+  "name": "Élégance Capillaire",
+  "description": "Un site moderne et interactif pour coiffeuse à domicile avec estimateur de tarifs, galerie avant/après et assistant de conseil capillaire IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
