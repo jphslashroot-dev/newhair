@@ -10,9 +10,7 @@ interface NavbarProps {
 export default function Navbar({ activeTab, setActiveTab, onBookClick }: NavbarProps) {
   const navItems = [
     { id: "hero", label: "Accueil" },
-    { id: "services", label: "Services & Tarifs" },
     { id: "beforeafter", label: "Avant / Après" },
-    { id: "consultant", label: "Diagnostic IA" },
     { id: "faq", label: "Pratique & FAQ" }
   ];
 
@@ -48,9 +46,6 @@ export default function Navbar({ activeTab, setActiveTab, onBookClick }: NavbarP
                       : "text-editorial-muted hover:text-editorial-dark opacity-80 hover:opacity-100"
                   }`}
                 >
-                  {item.id === "consultant" && (
-                    <Sparkles className="inline-block w-3.5 h-3.5 mr-1 animate-pulse text-editorial-accent" />
-                  )}
                   {item.label}
                   {isActive && (
                     <span className="absolute bottom-0 left-0 right-0 h-[1.5px] bg-editorial-accent" />

@@ -22,7 +22,6 @@ import Footer from "./components/Footer";
 import BeforeAfterSlider from "./components/BeforeAfterSlider";
 import ServiceCard from "./components/ServiceCard";
 import BookingWizard from "./components/BookingWizard";
-import AIConsultant from "./components/AIConsultant";
 
 import { 
   HAIR_SERVICES, 
@@ -210,14 +209,6 @@ export default function App() {
                       >
                         Créer mon devis à domicile
                       </button>
-
-                      <button
-                        id="hero-go-ia-btn"
-                        onClick={() => setActiveTab("consultant")}
-                        className="px-8 py-5 bg-transparent border border-editorial-dark/15 text-editorial-dark text-[11px] uppercase tracking-[0.2em] font-bold transition-all duration-300 hover:bg-editorial-light cursor-pointer"
-                      >
-                        Conseiller Capillaire IA
-                      </button>
                     </div>
 
                     {/* Quality Badges */}
@@ -284,26 +275,6 @@ export default function App() {
                       </div>
                     </div>
                   ))}
-                </div>
-              </section>
-
-              {/* IA CALL TO ACTION banner */}
-              <section className="bg-editorial-light border-y border-editorial-dark/10 py-16">
-                <div className="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center gap-8 justify-between">
-                  <div className="space-y-4 max-w-xl text-center md:text-left">
-                    <span className="px-3 py-1 bg-editorial-accent text-white text-[9px] font-bold tracking-[0.25em] uppercase">Exclusivité Digitale</span>
-                    <h3 className="font-serif text-3xl font-normal text-editorial-charcoal">Doutes sur votre coupe ou texture ?</h3>
-                    <p className="text-editorial-muted text-[13.5px] leading-relaxed font-light">
-                      Faites analyser instantanément votre configuration capillaire par notre <strong>Conseiller virtuel intelligent</strong> pour recevoir une analyse de style et des préconisations d'experts personnalisées.
-                    </p>
-                  </div>
-                  <button
-                    id="cta-ia-btn"
-                    onClick={() => setActiveTab("consultant")}
-                    className="px-8 py-4 bg-editorial-charcoal hover:bg-editorial-accent text-white text-[11px] uppercase tracking-[0.2em] font-bold transition-all shadow-sm whitespace-nowrap cursor-pointer"
-                  >
-                    Essayer le diagnostic IA gratuit
-                  </button>
                 </div>
               </section>
 
@@ -471,18 +442,6 @@ export default function App() {
                   </p>
                 </div>
               </div>
-            </motion.div>
-          )}
-
-          {/* TAB 4: VIRTUAL INTUITIVE AI CONSULTANT */}
-          {activeTab === "consultant" && (
-            <motion.div
-              key="view-consultant"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-            >
-              <AIConsultant />
             </motion.div>
           )}
 
