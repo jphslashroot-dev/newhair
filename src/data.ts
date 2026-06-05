@@ -104,36 +104,36 @@ export const HAIR_SERVICES: HairService[] = [
 
 export const REVIEWS = [
   {
-    name: "Morgane Deland",
+    name: "Emi",
     city: "Montpellier (34000)",
-    date: "Il y a 3 jours",
+    date: "Il y a 2 jours",
     rating: 5,
-    comment: "Quel bonheur de se faire coiffer chez soi par Bettyna ! Elle est d'un professionnalisme incroyable, ponctuelle et de très bon conseil. Mon balayage miel est magnifique, d'un naturel fou !",
-    services: "Forfait Coupe & Balayage"
+    comment: "Une super coiffeuse avec un grand C : accueil au top, vraie écoute et de vrais conseils. Nous sommes ravies !",
+    services: "Coupe & Coiffage"
   },
   {
-    name: "Sophie Valon",
-    city: "Saint-Jean-de-Védas (34430)",
-    date: "Il y a 1 semaine",
-    rating: 5,
-    comment: "Bettyna s'est occupée de mon chignon de mariée ainsi que de la coiffure de mes demoiselles d'honneur. Tout s'est déroulé dans le calme et la complicité à la maison. Un travail d'orfèvre qui a tenu toute la nuit ! Merci !",
-    services: "Forfait Mariée Premium"
-  },
-  {
-    name: "Guillaume Pelletier",
+    name: "Sofia",
     city: "Lattes (34970)",
-    date: "Il y a 2 semaines",
+    date: "Il y a 4 jours",
     rating: 5,
-    comment: "Coiffure à domicile super pratique pour ma maman âgée et moi. Bettyna est attentionnée, douce et très douée pour les coupes hommes comme femmes. Je recommande vivement !",
-    services: "Coupe Homme & Coupe Femme"
+    comment: "De très belles compétences ! Coiffeuse au top et très professionnelle. Je suis ravie du résultat, merci beaucoup Bettyna.",
+    services: "Coupe & Soin"
   },
   {
-    name: "Camille Durand",
+    name: "Audrey",
     city: "Pérols (34470)",
+    date: "Il y a 1 mois",
+    rating: 5,
+    comment: "Topissime ! Très belle rencontre et excellente prestation. Efficacité et simplicité, je recommande sans hésiter.",
+    services: "Brushing Signature"
+  },
+  {
+    name: "Vanessa",
+    city: "Saint-Jean-de-Védas (34430)",
     rating: 5,
     date: "Il y a 1 mois",
-    comment: "Le soin botox a complètement ressuscité mes cheveux décolorés. Ils sont brillants, doux et incroyablement faciles à coiffer. Bettyna donne des astuces en or !",
-    services: "Soin Thermique Botox"
+    comment: "J'ai fait appel à Bettyna après l'arrêt de ma coiffeuse habituelle et j'ai été ravie. Très pro et très sympa, elle a parfaitement répondu à mes attentes. J'ai trouvé ma nouvelle coiffeuse !",
+    services: "Coloration & Coupe"
   }
 ];
 
@@ -148,7 +148,7 @@ export const HOME_HAIRDRESSER_BENEFITS = [
   },
   {
     title: "Propreté & Hygiène Rigoureuses",
-    description: "Installation propre en 3 minutes (bâche de protection pour sol, serviettes à usage unique biodégradables). Bettyna nettoie méticuleusement après sa prestation : aucun cheveu n'est laissé derrière."
+    description: "Installation propre en 3 minutes (bâche de protection pour sol, serviettes lavées à 90°C). Bettyna nettoie méticuleusement après sa prestation : aucun cheveu n'est laissé derrière."
   },
   {
     title: "Horaires Flexibles Adaptés",

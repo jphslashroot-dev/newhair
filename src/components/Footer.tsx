@@ -37,7 +37,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-editorial-accent flex-shrink-0" />
-                <span>Lun - Sam : 09h00 - 19h30, sur rendez-vous</span>
+                <span>Lun - Ven : 9h30 - 22h30 · Samedi selon disponibilité</span>
               </li>
             </ul>
           </div>
@@ -51,9 +51,9 @@ export default function Footer() {
                 <Phone className="w-4 h-4 text-editorial-accent" />
                 <span>06 51 01 80 95</span>
               </a>
-              <a href="mailto:aline.elegance@example.com" className="flex items-center gap-2 text-white/80 hover:text-editorial-accent transition-colors">
+              <a href="mailto:nouvelhair78@gmail.com" className="flex items-center gap-2 text-white/80 hover:text-editorial-accent transition-colors">
                 <Mail className="w-4 h-4 text-editorial-accent" />
-                <span>contact@aline-coiffure.fr</span>
+                <span>nouvelhair78@gmail.com</span>
               </a>
             </div>
           </div>
@@ -64,11 +64,11 @@ export default function Footer() {
         <div className="pt-8 flex flex-wrap gap-4 justify-between items-center text-xs text-white/40">
           <div className="flex items-center gap-2">
             <ShieldCheck className="w-4 h-4 text-editorial-accent" />
-            <span>Prestations assurées - Matériel désinfecté et serviettes biodégradables.</span>
+            <span>Prestations assurées - Matériel désinfecté et serviettes lavées à 90°C.</span>
           </div>
 
           <p className="flex items-center gap-1.5 font-light">
-            Développé pour Montpellier & sa Métropole. © {new Date().getFullYear()} Nouvel'hair. Tous droits réservés.
+            Développé par jph. © {new Date().getFullYear()} Nouvel'hair. Tous droits réservés.
           </p>
         </div>
       </div>

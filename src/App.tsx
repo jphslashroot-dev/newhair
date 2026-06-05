@@ -93,7 +93,7 @@ export default function App() {
       {/* Top Banner Message with Editorial aesthetic */}
       <div className="w-full bg-editorial-charcoal text-editorial-light text-center py-2.5 px-4 text-[10px] tracking-[0.2em] font-bold uppercase flex items-center justify-center gap-2 border-b border-editorial-dark/10">
         <Sparkles className="w-3.5 h-3.5 text-editorial-accent animate-pulse" />
-        <span>Bettyna se déplace à domicile à Montpellier, Lattes & Pérols — <strong className="text-editorial-accent underline decoration-1">Déplacement gratuit</strong></span>
+        <span>Bettyna se déplace à domicile à Montpellier, Lattes & Pérols</span>
       </div>
 
       <Navbar 
@@ -202,13 +202,15 @@ export default function App() {
                     </p>
 
                     <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
-                      <button
+                      <a
                         id="hero-go-book-btn"
-                        onClick={handleScrollToBooking}
+                        href="https://wa.me/33651018095?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations."
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="px-10 py-5 bg-editorial-charcoal hover:bg-editorial-accent text-white text-[11px] uppercase tracking-[0.2em] font-bold transition-all duration-300 shadow-sm cursor-pointer"
                       >
                         Créer mon devis à domicile
-                      </button>
+                      </a>
                     </div>
 
                     {/* Quality Badges */}
