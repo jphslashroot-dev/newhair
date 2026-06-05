@@ -26,10 +26,10 @@ export default function Navbar({ activeTab, setActiveTab, onBookClick }: NavbarP
             className="flex flex-col cursor-pointer group select-none"
           >
             <span className="text-[10px] uppercase tracking-[0.25em] font-bold text-editorial-muted mb-1 leading-none">
-              Mérignac & Métropole Bordelaise
+              Montpellier & sa Métropole
             </span>
             <h1 className="text-2xl font-serif tracking-tighter uppercase font-medium text-editorial-dark">
-              Aline <span className="italic font-normal lowercase tracking-normal text-editorial-accent">et</span> Coiffure
+              Nouvel'<span className="text-[#C9A227]">hair</span>
             </h1>
           </div>
 
