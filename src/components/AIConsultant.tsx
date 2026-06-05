@@ -102,7 +102,7 @@ export default function AIConsultant() {
           Votre Diagnostic Coiffure sur Mesure
         </h2>
         <p className="text-gray-650 mt-3 text-[15px] leading-relaxed">
-          En s'appuyant sur l'expertise d'Aline couplée à l'intelligence artificielle, découvrez les coupes, styles de coiffage et soins profonds qui sublimeront votre chevelure.
+          En s'appuyant sur l'expertise d'Bettyna couplée à l'intelligence artificielle, découvrez les coupes, styles de coiffage et soins profonds qui sublimeront votre chevelure.
         </p>
       </div>
 
@@ -287,7 +287,7 @@ export default function AIConsultant() {
                 <textarea
                   value={answersText}
                   onChange={(e) => setAnswersText(e.target.value)}
-                  placeholder="Écrivez ici vos notes courtes à Aline l'IA..."
+                  placeholder="Écrivez ici vos notes courtes à Bettyna l'IA..."
                   rows={4}
                   className="w-full p-4 border border-rose-gold-100 rounded-2xl focus:ring-1 focus:ring-rose-gold-400 focus:outline-none text-[14px]"
                 />
@@ -323,13 +323,13 @@ export default function AIConsultant() {
               animate={{ opacity: 1, y: 0 }}
               className="p-8 flex-1"
             >
-              {/* Aline Header badge */}
+              {/* Bettyna Header badge */}
               <div className="flex items-center gap-3.5 pb-6 border-b border-rose-gold-100/40">
                 <div className="w-12 h-12 rounded-full overflow-hidden bg-rose-gold-100 border-2 border-rose-gold-400 flex items-center justify-center">
                   <span className="font-serif font-bold text-rose-gold-600 text-lg">AL</span>
                 </div>
                 <div>
-                  <h4 className="font-serif text-lg font-bold text-charcoal-900">Aline — Votre Styliste Capillaire</h4>
+                  <h4 className="font-serif text-lg font-bold text-charcoal-900">Bettyna — Votre Styliste Capillaire</h4>
                   <p className="text-xs text-gold-500 font-semibold tracking-wide">Conseils assistés par Intelligence Artificielle</p>
                 </div>
               </div>
@@ -358,7 +358,7 @@ export default function AIConsultant() {
                       <p className="text-gray-500 text-[13px] mt-2 leading-relaxed">{style.description}</p>
                       <div className="mt-3.5 pt-3.5 border-t border-dashed border-rose-gold-100/40 text-xs text-gold-600 flex items-start gap-1.5 font-medium">
                         <Check className="w-4 h-4 text-emerald-500 flex-shrink-0" />
-                        <span><strong className="text-charcoal-900">Pourquoi Aline valide :</strong> {style.whyMatched}</span>
+                        <span><strong className="text-charcoal-900">Pourquoi Bettyna valide :</strong> {style.whyMatched}</span>
                       </div>
                     </div>
                   ))}
@@ -394,7 +394,7 @@ export default function AIConsultant() {
               <div className="mt-10 p-6 rounded-2xl bg-gradient-to-br from-charcoal-900 to-charcoal-950 text-white">
                 <h4 className="font-serif text-lg font-bold mb-4 flex items-center gap-2 text-rose-gold-300">
                   <Heart className="w-5 h-5 text-rose-gold-400 fill-current" />
-                  Les 3 commandements d'Aline
+                  Les 3 commandements d'Bettyna
                 </h4>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                   {result.tips.map((tip, idx) => (
@@ -432,7 +432,7 @@ export default function AIConsultant() {
             <Loader2 className="w-12 h-12 animate-spin text-rose-gold-500 mb-4" />
             <h4 className="font-serif text-xl font-bold text-charcoal-900">Analyse de vos cheveux en cours...</h4>
             <div className="max-w-md text-gray-500 text-[13px] leading-relaxed mt-2 space-y-1">
-              <p>Aline l'IA croise les textures, les longueurs et l'historique chimique des mèches...</p>
+              <p>Bettyna l'IA croise les textures, les longueurs et l'historique chimique des mèches...</p>
               <p className="text-gold-500 font-semibold animate-pulse mt-1">Concoction d'un programme de soins de niveau salon...</p>
             </div>
           </div>

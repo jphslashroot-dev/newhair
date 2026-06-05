@@ -105,34 +105,34 @@ export const HAIR_SERVICES: HairService[] = [
 export const REVIEWS = [
   {
     name: "Morgane Deland",
-    city: "Bordeaux (33000)",
+    city: "Montpellier (34000)",
     date: "Il y a 3 jours",
     rating: 5,
-    comment: "Quel bonheur de se faire coiffer chez soi par Aline ! Elle est d'un professionnalisme incroyable, ponctuelle et de très bon conseil. Mon balayage miel est magnifique, d'un naturel fou !",
+    comment: "Quel bonheur de se faire coiffer chez soi par Bettyna ! Elle est d'un professionnalisme incroyable, ponctuelle et de très bon conseil. Mon balayage miel est magnifique, d'un naturel fou !",
     services: "Forfait Coupe & Balayage"
   },
   {
     name: "Sophie Valon",
-    city: "Mérignac (33700)",
+    city: "Castelnau-le-Lez (34170)",
     date: "Il y a 1 semaine",
     rating: 5,
-    comment: "Aline s'est occupée de mon chignon de mariée ainsi que de la coiffure de mes demoiselles d'honneur. Tout s'est déroulé dans le calme et la complicité à la maison. Un travail d'orfèvre qui a tenu toute la nuit ! Merci !",
+    comment: "Bettyna s'est occupée de mon chignon de mariée ainsi que de la coiffure de mes demoiselles d'honneur. Tout s'est déroulé dans le calme et la complicité à la maison. Un travail d'orfèvre qui a tenu toute la nuit ! Merci !",
     services: "Forfait Mariée Premium"
   },
   {
     name: "Guillaume Pelletier",
-    city: "Pessac (33600)",
+    city: "Lattes (34970)",
     date: "Il y a 2 semaines",
     rating: 5,
-    comment: "Coiffure à domicile super pratique pour ma maman âgée et moi. Aline est attentionnée, douce et très douée pour les coupes hommes comme femmes. Je recommande vivement !",
+    comment: "Coiffure à domicile super pratique pour ma maman âgée et moi. Bettyna est attentionnée, douce et très douée pour les coupes hommes comme femmes. Je recommande vivement !",
     services: "Coupe Homme & Coupe Femme"
   },
   {
     name: "Camille Durand",
-    city: "Talence (33400)",
+    city: "Jacou (34830)",
     rating: 5,
     date: "Il y a 1 mois",
-    comment: "Le soin botox a complètement ressuscité mes cheveux décolorés. Ils sont brillants, doux et incroyablement faciles à coiffer. Aline donne des astuces en or !",
+    comment: "Le soin botox a complètement ressuscité mes cheveux décolorés. Ils sont brillants, doux et incroyablement faciles à coiffer. Bettyna donne des astuces en or !",
     services: "Soin Thermique Botox"
   }
 ];
@@ -140,7 +140,7 @@ export const REVIEWS = [
 export const HOME_HAIRDRESSER_BENEFITS = [
   {
     title: "Confort Absolu & Gain de Temps",
-    description: "Fini la cohue des salons, la recherche d'une place de parking ou l'attente interminable. Aline vient à vous avec tout son équipement professionnel."
+    description: "Fini la cohue des salons, la recherche d'une place de parking ou l'attente interminable. Bettyna vient à vous avec tout son équipement professionnel."
   },
   {
     title: "Une Coiffeuse 100% à Votre Écoute",
@@ -148,7 +148,7 @@ export const HOME_HAIRDRESSER_BENEFITS = [
   },
   {
     title: "Propreté & Hygiène Rigoureuses",
-    description: "Installation propre en 3 minutes (bâche de protection pour sol, serviettes à usage unique biodégradables). Aline nettoie méticuleusement après sa prestation : aucun cheveu n'est laissé derrière."
+    description: "Installation propre en 3 minutes (bâche de protection pour sol, serviettes à usage unique biodégradables). Bettyna nettoie méticuleusement après sa prestation : aucun cheveu n'est laissé derrière."
   },
   {
     title: "Horaires Flexibles Adaptés",
@@ -157,27 +157,27 @@ export const HOME_HAIRDRESSER_BENEFITS = [
 ];
 
 export const TRAVEL_FEES = [
-  { zone: "Zone Ultra-Proximité (Mérignac, Pessac)", distance: "0 - 10 km", price: 0, desc: "Frais de déplacement offerts !" },
-  { zone: "Zone Urbaine Bordeaux (Bordeaux Centre, Talence, Le Bouscat)", distance: "10 - 20 km", price: 5, desc: "Déplacement offert dès 50€ d'achat." },
-  { zone: "Grand Cordon Bordelais (Eysines, Gradignan, Begles, Villenave)", distance: "20 - 30 km", price: 10, desc: "Déplacement offert dès 80€ d'achat." },
-  { zone: "Zone Périurbaine (Saint-Médard-en-Jalles, Cestas, Blanquefort)", distance: "30+ km", price: 15, desc: "Sur demande spécifique." }
+  { zone: "Zone Ultra-Proximité (Montpellier, Castelnau-le-Lez)", distance: "0 - 10 km", price: 0, desc: "Frais de déplacement offerts !" },
+  { zone: "Zone Urbaine Montpellier (Montpellier Centre, Lattes, Pérols)", distance: "10 - 20 km", price: 5, desc: "Déplacement offert dès 50€ d'achat." },
+  { zone: "Grand Cordon Montpelliérain (Jacou, Le Crès, Clapiers, Juvignac)", distance: "20 - 30 km", price: 10, desc: "Déplacement offert dès 80€ d'achat." },
+  { zone: "Zone Périurbaine (Saint-Aunès, Mauguio, Grabels)", distance: "30+ km", price: 15, desc: "Sur demande spécifique." }
 ];
 
 export const FAQ_ITEMS = [
   {
     category: "Organisation",
     question: "De quoi avez-vous besoin lors de votre venue ?",
-    answer: "Aline amène tout le matériel professionnel : serviettes propres, bac à shampoing amovible gonflable s'adaptant à toutes les chaises/douches, bâche de sol étanche, sèche-cheveux, fers et produits. Elle a seulement besoin d'une chaise confortable, d'une prise électrique à proximité, et d'un accès à un point d'eau chaude (évier, douche) pour rincer le bac."
+    answer: "Bettyna amène tout le matériel professionnel : serviettes propres, bac à shampoing amovible gonflable s'adaptant à toutes les chaises/douches, bâche de sol étanche, sèche-cheveux, fers et produits. Elle a seulement besoin d'une chaise confortable, d'une prise électrique à proximité, et d'un accès à un point d'eau chaude (évier, douche) pour rincer le bac."
   },
   {
     category: "Produits",
     question: "Quelles marques de produits utilisez-vous ?",
-    answer: "Aline utilise des gammes de soins professionnels, d'origine naturelle à plus de 90%, respectueuses de la fibre capillaire (sans silicones lourds ni sulfates agressifs). Les colorations proposées sont très douces et respectent les cuirs chevelus sensibles."
+    answer: "Bettyna utilise des gammes de soins professionnels, d'origine naturelle à plus de 90%, respectueuses de la fibre capillaire (sans silicones lourds ni sulfates agressifs). Les colorations proposées sont très douces et respectent les cuirs chevelus sensibles."
   },
   {
     category: "Règlement & Frais",
     question: "Comment se calculent les frais de déplacement ?",
-    answer: "Les déplacements sont gratuits dans la zone de Mérignac/Pessac (rayon de 10km). Pour les autres communes de la métropolebordelaise, de légers frais s'appliquent (de 5€ à 15€) mais sont totalement annulés dès que la facture atteint un certain palier de prestations !"
+    answer: "Les déplacements sont gratuits dans la zone de Montpellier/Castelnau-le-Lez (rayon de 10km). Pour les autres communes de la métropole montpelliéraine, de légers frais s'appliquent (de 5€ à 15€) mais sont totalement annulés dès que la facture atteint un certain palier de prestations !"
   },
   {
     category: "Règlement",

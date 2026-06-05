@@ -92,7 +92,7 @@ async function startServer() {
         - Autres notes ou détails fournis : ${answersText || 'aucune'}
       `;
 
-      const prompt = `Tu es une coiffeuse professionnelle à domicile experte en stylisme et soins capillaires, appelée "Aline".
+      const prompt = `Tu es une coiffeuse professionnelle à domicile experte en stylisme et soins capillaires, appelée "Bettyna".
 Un utilisateur cherche des conseils personnalisés pour sa coupe, ses soins et sa routine de coiffage.
 Voici ses informations de diagnostic capillaire :
 ${userContext}
@@ -102,7 +102,7 @@ Tu dois répondre STRICTEMENT au format JSON en français, respectant le schéma
 
 Schéma JSON de réponse attendu :
 {
-  "diagnostic": "Chaîne de caractères décrivant brièvement et chaleureusement le diagnostic capillaire général de la cliente (style Aline, coiffeuse à domicile bienveillante).",
+  "diagnostic": "Chaîne de caractères décrivant brièvement et chaleureusement le diagnostic capillaire général de la cliente (style Bettyna, coiffeuse à domicile bienveillante).",
   "hairstyles": [
     {
       "name": "Nom de la coupe/coiffure suggérée (ex. Le Carré Plongeant Flou)",

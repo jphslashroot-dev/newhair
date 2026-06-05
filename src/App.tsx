@@ -94,7 +94,7 @@ export default function App() {
       {/* Top Banner Message with Editorial aesthetic */}
       <div className="w-full bg-editorial-charcoal text-editorial-light text-center py-2.5 px-4 text-[10px] tracking-[0.2em] font-bold uppercase flex items-center justify-center gap-2 border-b border-editorial-dark/10">
         <Sparkles className="w-3.5 h-3.5 text-editorial-accent animate-pulse" />
-        <span>Aline se déplace à domicile à Mérignac, Pessac & Bordeaux — <strong className="text-editorial-accent underline decoration-1">Déplacement gratuit</strong></span>
+        <span>Bettyna se déplace à domicile à Montpellier, Castelnau-le-Lez & Lattes — <strong className="text-editorial-accent underline decoration-1">Déplacement gratuit</strong></span>
       </div>
 
       <Navbar 
@@ -144,7 +144,7 @@ export default function App() {
               </div>
 
               <p className="text-editorial-muted text-xs leading-relaxed font-light">
-                Merci pour votre confiance, {savedBooking?.clientName}. Un message SMS ou un e-mail de confirmation officielle vous sera transmis par Aline sous quelques heures pour valider définitivement le créneau proposé.
+                Merci pour votre confiance, {savedBooking?.clientName}. Un message SMS ou un e-mail de confirmation officielle vous sera transmis par Bettyna sous quelques heures pour valider définitivement le créneau proposé.
               </p>
 
               <button
@@ -199,7 +199,7 @@ export default function App() {
                     </h2>
 
                     <p className="text-editorial-dark font-light text-base sm:text-md leading-relaxed max-w-lg mx-auto lg:mx-0 pt-2 opacity-95">
-                      Une expertise haute-coiffure personnalisée prodiguée dans la quiétude et l'intimité de votre foyer. Aline réinvente la coiffure à domicile bordelaise avec des rituels bienveillants et des soins professionnels d'exception.
+                      Une expertise haute-coiffure personnalisée prodiguée dans la quiétude et l'intimité de votre foyer. Bettyna réinvente la coiffure à domicile montpelliéraine avec des rituels bienveillants et des soins professionnels d'exception.
                     </p>
 
                     <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
@@ -227,7 +227,7 @@ export default function App() {
                         <span className="text-[9px] uppercase font-bold text-editorial-muted tracking-[0.15em]">Sur 140+ avis</span>
                       </div>
                       <div className="border-l border-editorial-dark/10 pl-6">
-                        <span className="font-serif block text-2xl font-normal text-editorial-charcoal">Mérignac</span>
+                        <span className="font-serif block text-2xl font-normal text-editorial-charcoal">Montpellier</span>
                         <span className="text-[9px] uppercase font-bold text-editorial-muted tracking-[0.15em]">Secteur d'action</span>
                       </div>
                       <div className="border-l border-editorial-dark/10 pl-6">
@@ -243,7 +243,7 @@ export default function App() {
                       <div className="w-full h-full relative overflow-hidden">
                         <img
                           src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=600&h=800"
-                          alt="Aline Home Hairdresser setup"
+                          alt="Bettyna Home Hairdresser setup"
                           className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                           referrerPolicy="no-referrer"
                         />
@@ -467,7 +467,7 @@ export default function App() {
                 <div>
                   <h4 className="font-serif text-[18px] font-normal text-editorial-charcoal">Des clichés réels & sans filtre artificiel</h4>
                   <p className="text-editorial-muted text-xs mt-2 leading-relaxed font-light">
-                    Toutes ces transformations sont réalisées en situation de déplacement par Aline avec des techniques de balayage doux et des rituels capillaires reconstructeurs. Le rendu final reste fidèle aux rituels appliqués et à la nature du cheveu original.
+                    Toutes ces transformations sont réalisées en situation de déplacement par Bettyna avec des techniques de balayage doux et des rituels capillaires reconstructeurs. Le rendu final reste fidèle aux rituels appliqués et à la nature du cheveu original.
                   </p>
                 </div>
               </div>
@@ -546,14 +546,14 @@ export default function App() {
                   <span className="px-3.5 py-1 text-[9px] tracking-[0.2em] uppercase text-editorial-accent font-bold border border-editorial-accent/20 bg-white/5">Secteur d'activité</span>
                   <h4 className="font-serif text-2xl font-light">Un doute sur votre commune ?</h4>
                   <p className="text-[#E5E1DA] text-[13px] leading-relaxed max-w-sm font-light">
-                    Aline intervient principalement sur l'agglomération bordelaise Ouest (Mérignac, Pessac, Le Bouscat, Talence, Bruges, Blanquefort, Martignas, Saint-Médard-en-Jalles). Écrivez-nous directement pour valider d'autres régions.
+                    Bettyna intervient principalement sur l'agglomération montpelliéraine (Montpellier, Castelnau-le-Lez, Lattes, Pérols, Jacou, Le Crès, Clapiers, Saint-Jean-de-Védas). Écrivez-nous directement pour valider d'autres régions.
                   </p>
                 </div>
                 <a
                   href="tel:0612345678"
                   className="px-8 py-4 bg-editorial-accent hover:bg-neutral-800 text-white text-[11px] font-bold tracking-[0.2em] uppercase transition-colors whitespace-nowrap"
                 >
-                  Appeler Aline (0612345678)
+                  Appeler Bettyna (0612345678)
                 </a>
               </div>
 

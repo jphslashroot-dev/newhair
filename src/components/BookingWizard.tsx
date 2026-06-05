@@ -24,7 +24,7 @@ export default function BookingWizard({ selectedServices, toggleService, onSucce
   const [clientEmail, setClientEmail] = useState<string>("");
   const [clientPhone, setClientPhone] = useState<string>("");
   const [clientAddress, setClientAddress] = useState<string>("");
-  const [clientCity, setClientCity] = useState<string>("Mérignac");
+  const [clientCity, setClientCity] = useState<string>("Montpellier");
   const [clientNotes, setClientNotes] = useState<string>("");
 
   // Final confirmation state
@@ -348,7 +348,7 @@ export default function BookingWizard({ selectedServices, toggleService, onSucce
                       <MapPin className="w-4 h-4 text-editorial-accent" />
                       Lieu du rendez-vous
                     </h5>
-                    <p className="text-editorial-muted text-[10px] mb-4 font-light uppercase tracking-wider">Aline se déplace sur Bordeaux et couronne métropolitaine</p>
+                    <p className="text-editorial-muted text-[10px] mb-4 font-light uppercase tracking-wider">Bettyna se déplace sur Montpellier et couronne métropolitaine</p>
                     <select
                       id="select-travel-distance"
                       value={distanceOption}
@@ -428,7 +428,7 @@ export default function BookingWizard({ selectedServices, toggleService, onSucce
                     ))}
                   </div>
                   <p className="text-[10px] text-editorial-muted mt-5 leading-relaxed font-light italic">
-                    Note : Travaillant à domicile, Aline prévoit une marge de battement d'environ 15 minutes selon les impératifs routiers locaux. Un SMS de suivi vous est délivré à son départ.
+                    Note : Travaillant à domicile, Bettyna prévoit une marge de battement d'environ 15 minutes selon les impératifs routiers locaux. Un SMS de suivi vous est délivré à son départ.
                   </p>
                 </div>
               </motion.div>
@@ -506,7 +506,7 @@ export default function BookingWizard({ selectedServices, toggleService, onSucce
                       id="input-client-city"
                       value={clientCity}
                       onChange={(e) => setClientCity(e.target.value)}
-                      placeholder="Ex: Mérignac"
+                      placeholder="Ex: Montpellier"
                       className="w-full p-3 bg-[#FDFCFB] border border-editorial-dark/15 rounded-none text-editorial-muted bg-editorial-light focus:outline-none text-xs font-semibold"
                     />
                   </div>

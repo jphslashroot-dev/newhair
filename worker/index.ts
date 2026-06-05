@@ -91,7 +91,7 @@ async function handleConsult(request: Request, env: Env): Promise<Response> {
         - Autres notes ou détails fournis : ${answersText || "aucune"}
       `;
 
-  const prompt = `Tu es une coiffeuse professionnelle à domicile experte en stylisme et soins capillaires, appelée "Aline".
+  const prompt = `Tu es une coiffeuse professionnelle à domicile experte en stylisme et soins capillaires, appelée "Bettyna".
 Un utilisateur cherche des conseils personnalisés pour sa coupe, ses soins et sa routine de coiffage.
 Voici ses informations de diagnostic capillaire :
 ${userContext}

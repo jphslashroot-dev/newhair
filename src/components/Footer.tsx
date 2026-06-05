@@ -15,15 +15,15 @@ export default function Footer() {
               </div>
               <div>
                 <span className="font-serif text-2xl font-normal tracking-wide block leading-none text-white">
-                  Aline
+                  Nouvel'<span className="text-[#C9A227]">hair</span>
                 </span>
                 <span className="text-[10px] uppercase tracking-widest text-editorial-accent font-semibold block mt-1">
-                  Élégance Capillaire à Domicile
+                  Nouvel'hair à Domicile
                 </span>
               </div>
             </div>
             <p className="text-white/65 text-xs leading-relaxed max-w-sm font-light">
-              Artisan coiffeuse certifiée et passionnée, Aline réinvente la coiffure à domicile dans la région bordelaise avec des rituels bienveillants et des produits respectueux d’exception.
+              Artisan coiffeuse certifiée et passionnée, Bettyna réinvente la coiffure à domicile dans la région montpelliéraine avec des rituels bienveillants et des produits respectueux d’exception.
             </p>
           </div>
 
@@ -33,7 +33,7 @@ export default function Footer() {
             <ul className="space-y-2.5 text-xs text-white/70 font-light">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-editorial-accent flex-shrink-0 mt-0.5" />
-                <span>Mérignac, Pessac, Talence, Gradignan, Bordeaux et métropole proche.</span>
+                <span>Montpellier, Castelnau-le-Lez, Lattes, Pérols, Jacou et métropole proche.</span>
               </li>
               <li className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-editorial-accent flex-shrink-0" />
@@ -68,7 +68,7 @@ export default function Footer() {
           </div>
 
           <p className="flex items-center gap-1.5 font-light">
-            Développé pour Mérignac & Bordeaux. © {new Date().getFullYear()} Élégance Capillaire. Tous droits réservés.
+            Développé pour Montpellier & sa Métropole. © {new Date().getFullYear()} Nouvel'hair. Tous droits réservés.
           </p>
         </div>
       </div>
